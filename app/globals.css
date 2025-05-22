@@ -1,0 +1,109 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Exposure-50';
+  src: url('/fonts/ExposureTrial[-50].otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Exposure-20';
+  src: url('/fonts/ExposureTrial[-20].otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Exposure-0';
+  src: url('/fonts/ExposureTrial[0].otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #ffffff;
+    --foreground: #171717;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.link-columns {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100%;
+  padding: 2rem 0 2rem 2rem;
+  gap: 3rem;
+}
+.vertical-divider {
+  width: 1px;
+  background: #eee;
+  align-self: stretch;
+  margin: 0;
+}
+.mobile-divider {
+  display: none;
+}
+
+@media (max-width: 700px) {
+  .link-columns {
+    flex-direction: column !important;
+    gap: 0 !important;
+    padding: 1.5rem 1.25rem 2rem 1.25rem !important;
+    align-items: stretch !important;
+    width: 100% !important;
+  }
+  .vertical-divider {
+    display: none !important;
+  }
+  .link-columns section {
+    max-width: 100% !important;
+    width: 100% !important;
+    padding: 0 !important;
+    margin-bottom: 2.5rem !important;
+  }
+  .mobile-divider {
+    display: none;
+  }
+  .link-columns,
+  .link-columns *,
+  h1, h2, h3, section, a, div, ul, li {
+    font-size: 12px !important;
+    line-height: 1.5 !important;
+  }
+  .link-columns {
+    padding-left: 1.25rem !important;
+    padding-right: 1.25rem !important;
+  }
+  .profile-header {
+    padding-left: 1.25rem !important;
+    padding-right: 1.25rem !important;
+  }
+}
+
+.link-columns a {
+  transition: color 0.2s;
+}
+.link-columns a:hover {
+  color: #F2B0C9;
+}
