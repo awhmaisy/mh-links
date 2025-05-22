@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { useScramble } from "use-scramble";
+import Image from "next/image";
 
 const mainLinks = [
   {
@@ -93,30 +94,32 @@ export default function Home() {
       <div className="profile-header" style={{ width: "100%", padding: "2rem 2rem 0 2rem" }}>
         <div style={{ display: "flex", alignItems: "center", gap: "1.5rem" }}>
           <div style={{ position: "relative", width: 88, height: 88, minWidth: 88, minHeight: 88 }}>
-            <img
+            <Image
               src="/profile.jpg"
               alt="Profile photo"
+              width={88}
+              height={88}
               style={{
-                width: 88,
-                height: 88,
                 borderRadius: "50%",
                 objectFit: "cover",
                 border: "2px solid #eee",
                 background: "#f3f3f3",
                 display: "block",
               }}
+              priority
             />
-            <img
+            <Image
               src="/heartbloom.png"
               alt="Heartbloom overlay"
+              width={88}
+              height={88}
               style={{
                 position: "absolute",
                 top: 0,
                 left: 0,
-                width: 88,
-                height: 88,
                 pointerEvents: "none",
               }}
+              priority
             />
           </div>
           <div>
@@ -148,7 +151,7 @@ export default function Home() {
                 textAlign: "left",
               }}
             >
-              Hi! You've found all of my links.
+              Hi! You&apos;ve found all of my links.
             </div>
             <a
               href="mailto:m@mach012.com"
