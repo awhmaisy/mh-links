@@ -66,12 +66,17 @@ body {
 }
 
 @media (max-width: 700px) {
+  .profile-header {
+    padding-top: 2rem !important;
+  }
+
   .link-columns {
     flex-direction: column !important;
     gap: 0 !important;
-    padding: 1.5rem 1.25rem 2rem 1.25rem !important;
+    padding: 1rem 2rem !important;
     align-items: stretch !important;
     width: 100% !important;
+    justify-content: center !important;
   }
   .vertical-divider {
     display: none !important;
@@ -80,7 +85,7 @@ body {
     max-width: 100% !important;
     width: 100% !important;
     padding: 0 !important;
-    margin-bottom: 2.5rem !important;
+    margin-bottom: 1rem !important;
   }
   .mobile-divider {
     display: none;
@@ -91,13 +96,14 @@ body {
     font-size: 12px !important;
     line-height: 1.5 !important;
   }
-  .link-columns {
-    padding-left: 1.25rem !important;
-    padding-right: 1.25rem !important;
-  }
   .profile-header {
-    padding-left: 1.25rem !important;
-    padding-right: 1.25rem !important;
+    padding: 1.5rem !important;
+  }
+  .profile-img-mobile {
+    width: 60px !important;
+    height: 60px !important;
+    min-width: 60px !important;
+    min-height: 60px !important;
   }
 }
 

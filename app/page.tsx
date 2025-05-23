@@ -15,7 +15,12 @@ const mainLinks = [
     subline: "I am here occasionally",
   },
   {
-    title: "Maisyverse TikTok",
+    title: "Github",
+    url: "https://github.com/awhmaisy",
+    subline: "My joy ROI projects!",
+  },
+  {
+    title: "Maisyverse",
     url: "https://tiktok.com/@maisyverse",
     subline: "Science/tech, space and physics",
   },
@@ -25,16 +30,6 @@ const mainLinks = [
     subline: "Soon!",
   },
   {
-    title: "Amazon Book List",
-    url: "https://amazon.com/hz/wishlist/ls/example",
-    subline: "Books I recommend and love",
-  },
-  {
-    title: "Substack",
-    url: "https://awhmaisy.substack.com/",
-    subline: "Monthlies",
-  },
-  {
     title: "Spotify",
     url: "https://open.spotify.com/user/msf84l3xh0uyy5vvf1nn0idon?si=c04a0dd18d184ae0",
     subline: "Occasional indulgences",
@@ -42,6 +37,16 @@ const mainLinks = [
 ];
 
 const sideLinks = [
+  {
+    title: "Amazon Wish List",
+    url: "https://amazon.com/hz/wishlist/ls/example",
+    subline: "By popular request, a few favorites and desires!",
+  },
+  {
+    title: "Substack",
+    url: "https://awhmaisy.substack.com/",
+    subline: "Monthly status reports",
+  },
   {
     title: "Are.na",
     url: "https://are.na/mei-higashi",
@@ -70,7 +75,7 @@ const sideLinks = [
   {
     title: "Pinboard",
     url: "https://pinboard.in/u:maisy",
-    subline: "Archives",
+    subline: "Introvert archives",
   },
 ];
 
