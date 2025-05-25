@@ -39,7 +39,7 @@ const mainLinks = [
 const sideLinks = [
   {
     title: "Amazon Wish List",
-    url: "https://amazon.com/hz/wishlist/ls/example",
+    url: "https://www.amazon.com/hz/wishlist/ls/38GTK0V32WYKD?ref_=wl_share",
     subline: "By popular request, a few favorites and desires!",
   },
   {
