@@ -155,7 +155,7 @@ export default function Home() {
             I started this account as a way to consistently keep us updated on public markets. I focus on creating short & sweet topline memos! 
             <br />
             <br />
-            My personal interests veer towards startup price rounds, deep tech, and defense / energy / computing sectors. If time permits, I&apos;m always up for a deep dive :)
+            My personal interests gravitate to startups, deep tech, and the defense / energy / computing sectors. If time permits, I&apos;m always up for a deep dive :)
           </span>
         </p>
         
