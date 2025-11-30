@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 
 declare global {
   interface Window {
@@ -155,7 +155,7 @@ export default function Home() {
             I started this account as a way to consistently keep us updated on public markets. I focus on creating short & sweet topline memos! 
             <br />
             <br />
-            My interests veer especially towards early-stage companies & fundraising rounds, deep tech, & defense/energy/computing sectors. If time permits, I'm always up for a deep dive :)
+            My interests veer especially towards early-stage companies & fundraising rounds, deep tech, & defense/energy/computing sectors. If time permits, I&apos;m always up for a deep dive :)
           </span>
         </p>
         
