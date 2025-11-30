@@ -30,11 +30,15 @@ const mainLinks = [
     url: "https://linkedin.com/in/awhmaisy",
     subline: "Semi deprecated",
   },
+   /**
   {
     title: "Pinboard",
     url: "https://pinboard.in/u:maisy",
     subline: "I love a good PDF!",
   },
+ 
+   * 
+   */
 ];
 
 export default function Home() {
@@ -144,7 +148,7 @@ export default function Home() {
             color: "#fff",
             marginBottom: "1.5rem",
             lineHeight: "1.2",
-            textAlign: "justify",
+            textAlign: "left",
           }}
         >
           <span style={{ lineHeight: "1.2" }}>
@@ -155,8 +159,11 @@ export default function Home() {
             I started this account as a way to consistently keep us updated on public markets. I focus on creating short & sweet topline memos! 
             <br />
             <br />
-            My personal interests gravitate to startups, deep tech, and the defense / energy / computing sectors. If time permits, I&apos;m always up for a deep dive :)
+            My personal interests gravitate towards startups, deep tech, and the defense / energy / computing sectors.
           </span>
+          <br />
+          <br />
+          If you have a fun fact about industrials, machinery, aerospace, nano, or frontier tech, I&apos;d love to hear it!
         </p>
         
         <ul
