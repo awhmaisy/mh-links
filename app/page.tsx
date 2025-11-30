@@ -82,7 +82,7 @@ export default function Home() {
             fontFamily: "'Berkeley Mono', monospace",
             fontSize: "14px",
             fontWeight: "normal",
-            marginBottom: "1.5rem",
+            marginBottom: "0.5rem",
             color: "#fff",
             lineHeight: "1",
           }}
@@ -203,6 +203,10 @@ export default function Home() {
             </li>
           ))}
         </ul>
+        
+        <p style={{ fontSize: "11px", color: "#fff", textAlign: "center", fontStyle: "italic", marginTop: "1.5rem" }}>
+          this page uses <a href="https://usgraphics.com/products/berkeley-mono" target="_blank" rel="noopener noreferrer" style={{ color: "#fff", textDecoration: "underline" }}>U.S. Graphics' Berkeley Mono!</a> it's my favorite editor and terminal typeface.
+        </p>
       </div>
       
       {showKofiModal && (
