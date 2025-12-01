@@ -26,6 +26,11 @@ const mainLinks = [
     subline: "Undercover but my #1 platform",
   },
   {
+    title: "Stacked (Exclusive content)",
+    url: "https://stacked.com/quark",
+    subline: "Testing out pings & behind the scenes!",
+  },
+  {
     title: "LinkedIn",
     url: "https://linkedin.com/in/awhmaisy",
     subline: "Semi deprecated",
@@ -205,7 +210,7 @@ export default function Home() {
         </ul>
         
         <p style={{ fontSize: "11px", color: "#fff", textAlign: "center", fontStyle: "italic", marginTop: "1.5rem" }}>
-          this page uses <a href="https://usgraphics.com/products/berkeley-mono" target="_blank" rel="noopener noreferrer" style={{ color: "#fff", textDecoration: "underline" }}>U.S. Graphics' Berkeley Mono!</a> it's my favorite editor and terminal typeface.
+          this page uses <a href="https://usgraphics.com/products/berkeley-mono" target="_blank" rel="noopener noreferrer" style={{ color: "#fff", textDecoration: "underline" }}>U.S. Graphics&apos; Berkeley Mono!</a> it&apos;s my favorite editor and terminal typeface.
         </p>
       </div>
       
